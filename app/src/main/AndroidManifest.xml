@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.alpastpapers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ALPastPapers">
+        <activity
+            android:name=".view2014ms"
+            android:exported="true" />
+        <activity
+            android:name=".view2015ms"
+            android:exported="true" />
+        <activity
+            android:name=".view2016ms"
+            android:exported="true" />
+        <activity
+            android:name=".view2017ms"
+            android:exported="true" />
+        <activity
+            android:name=".view2018ms"
+            android:exported="true" />
+        <activity
+            android:name=".arts_ms"
+            android:exported="true" />
+        <activity
+            android:name=".commerce_ms"
+            android:exported="true" />
+        <activity
+            android:name=".maths_ms"
+            android:exported="true" />
+        <activity
+            android:name=".view2019ms"
+            android:exported="true" />
+        <activity
+            android:name=".science_ms"
+            android:exported="true" />
+        <activity
+            android:name=".arts_pp"
+            android:exported="true" />
+        <activity
+            android:name=".commerce_pp"
+            android:exported="true" />
+        <activity
+            android:name=".maths_pp"
+            android:exported="true" />
+        <activity
+            android:name=".view2014pp"
+            android:exported="true" />
+        <activity
+            android:name=".view2015pp"
+            android:exported="true" />
+        <activity
+            android:name=".view2016pp"
+            android:exported="true" />
+        <activity
+            android:name=".View2017ppActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view2018pp"
+            android:exported="true" />
+        <activity
+            android:name=".view2019pp"
+            android:exported="true" />
+        <activity
+            android:name=".SciencePpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".subject_list_ms"
+            android:exported="true" />
+        <activity
+            android:name=".SubjectListPpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

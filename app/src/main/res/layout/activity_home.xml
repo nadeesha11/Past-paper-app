@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/background"
+   android:orientation="vertical"
+
+    >
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="WELCOME"
+     android:textSize="50dp"
+     android:textStyle="bold"
+
+     android:textAlignment="center"
+     android:textColor="@color/black"
+     android:layout_marginTop="20px"
+
+ >
+
+ </TextView>
+
+
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="138dp"
+     android:src="@drawable/logo"
+     >
+
+ </ImageView>
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_marginTop="50px"
+    android:id="@+id/pp"
+    android:layout_width="800px"
+    android:layout_height="170px"
+    android:layout_marginLeft="90px"
+    android:text="A/L PAST PAPERS"
+    android:drawableLeft="@drawable/ic_baseline_picture_as_pdf_24"
+    android:textColor="@color/white"
+    android:textSize="40px"
+    android:background="@drawable/btn2"
+
+    >
+
+</androidx.appcompat.widget.AppCompatButton>
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_marginTop="30px"
+     android:layout_width="800px"
+     android:text="MARKING SCHEMES"
+     android:id="@+id/ms"
+     android:textColor="@color/white"
+     android:textSize="40px"
+     android:drawableLeft="@drawable/ic_baseline_library_books_24"
+     android:layout_height="170px"
+     android:layout_marginLeft="90px"
+     android:background="@drawable/btn2"
+     >
+
+ </androidx.appcompat.widget.AppCompatButton>
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_marginTop="30px"
+     android:layout_width="800px"
+     android:layout_height="170px"
+     android:id="@+id/link"
+     android:text="E - THAKSALAWA"
+     android:drawableLeft="@drawable/ic_baseline_link_24"
+     android:textColor="@color/white"
+     android:textSize="40px"
+     android:layout_marginLeft="90px"
+     android:background="@drawable/btn2"
+
+
+     >
+
+ </androidx.appcompat.widget.AppCompatButton>
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:layout_marginTop="30px"
+     android:id="@+id/About_us_btn"
+     android:layout_width="800px"
+     android:layout_height="170px"
+     android:text="ABOUT US"
+     android:textColor="@color/white"
+     android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+     android:textSize="40px"
+     android:layout_marginLeft="90px"
+     android:background="@drawable/btn2"
+     >
+
+ </androidx.appcompat.widget.AppCompatButton>
+
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:id="@+id/btn_exit"
+     android:layout_width="800px"
+     android:layout_height="170px"
+     android:layout_marginLeft="90px"
+     android:layout_marginTop="30dp"
+     android:background="@drawable/btnexit"
+     android:text="EXIT"
+     android:textColor="@color/white"
+     android:textSize="40px">
+
+ </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>

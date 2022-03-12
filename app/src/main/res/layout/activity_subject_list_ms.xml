@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SubjectListPpActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SUBJECTS"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+
+        >
+
+    </TextView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:rowCount="2"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/ic_baseline_science_24"
+            android:text="SCIENCE"
+            android:id="@+id/science"
+
+
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5dp"
+            android:drawableStart="@drawable/ic_baseline_construction_24"
+            android:layout_gravity="fill"
+            android:text="MATHS"
+            android:id="@+id/maths"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+
+            android:layout_margin="5dp"
+            android:layout_gravity="fill"
+            android:text="COMMERCE"
+            android:id="@+id/commerce"
+            android:drawableStart="@drawable/ic_baseline_business_24"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_columnWeight="1"
+            android:drawableStart="@drawable/ic_baseline_auto_stories_24"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill"
+            android:id="@+id/arts"
+            android:layout_margin="5dp"
+            android:text="ARTS"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

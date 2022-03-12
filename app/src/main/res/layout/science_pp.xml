@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SciencePpActivity">
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="@drawable/btn3"
+       android:layout_margin="20dp"
+       android:text="2019"
+       android:id="@+id/pp2019"
+       android:textSize="20dp"
+       android:textColor="@color/white"
+       >
+   </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn3"
+        android:layout_margin="20dp"
+        android:text="2018"
+        android:id="@+id/pp2018"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn3"
+        android:text="2017"
+        android:id="@+id/pp2017"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn3"
+        android:text="2016"
+        android:textSize="20dp"
+        android:id="@+id/pp2016"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn3"
+        android:text="2015"
+        android:id="@+id/pp2015"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn3"
+        android:text="2014"
+        android:id="@+id/pp2014"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</LinearLayout>
